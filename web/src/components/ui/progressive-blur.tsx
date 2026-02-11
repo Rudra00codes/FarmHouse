@@ -1,4 +1,5 @@
 import React from "react";
+import { cn } from "@/lib/utils";
 
 type ProgressiveBlurProps = {
   className?: string;
@@ -10,16 +11,16 @@ type ProgressiveBlurProps = {
 
 const ProgressiveBlur = ({
   className = "",
-  backgroundColor = "#f5f4f3",
+  backgroundColor = "#f5f4f3ff",
   position = "top",
-  height = "150px",
-  blurAmount = "4px",
+  height = "100px",
+  blurAmount = "6px",
 }: ProgressiveBlurProps) => {
   const isTop = position === "top";
 
   return (
     <div
-      className={`pointer-events-none absolute left-0 w-full select-none ${className}`}
+      className={cn("pointer-events-none absolute left-0 w-full select-none", className)}
       style={{
         [isTop ? "top" : "bottom"]: 0,
         height,
@@ -41,8 +42,8 @@ const ProgressiveBlur = ({
 const Skiper41 = () => {
   return (
     <div className="relative flex h-full w-full flex-col items-center justify-center bg-[#f5f4f3] text-black/40">
-      <ProgressiveBlur position="top" backgroundColor="#f5f4f3" />
-      <ProgressiveBlur position="bottom" backgroundColor="#f5f4f3" />
+      <ProgressiveBlur position="top" backgroundColor="#f5f4f3c4" />
+      <ProgressiveBlur position="bottom" backgroundColor="#f5f4f3d5" />
 
       <div className="flex h-[calc(100vh-1rem)] w-full flex-col items-center overflow-scroll">
         <div className="mt-42 grid content-start justify-items-center gap-6 text-center text-black">

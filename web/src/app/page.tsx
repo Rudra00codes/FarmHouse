@@ -14,13 +14,13 @@ export default function Home() {
             <ProgressiveBlur
                 position="top"
                 className="fixed z-40"
-                backgroundColor="var(--background)" 
+                backgroundColor="#a2a2a2a9"
                 blurAmount="6px"
             />
             <ProgressiveBlur
                 position="bottom"
                 className="fixed z-40"
-                backgroundColor="white"
+                backgroundColor="#c1c1c1a3"
                 blurAmount="6px"
             />
             <Hero />
