@@ -6,20 +6,20 @@ import { Button } from "@/components/ui/button"
 
 const showcases = [
     {
-        tag: "Your room",
-        title: "Explore rooms",
+        tag: "Accomodation",
+        title: "View Rooms",
         image: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=2670&auto=format&fit=crop",
         className: "rounded-tl-[4rem] rounded-tr-lg rounded-bl-lg rounded-br-lg"
     },
     {
-        tag: "A round of golf",
-        title: "Take a swing",
+        tag: "Activities",
+        title: "Shooting Range",
         image: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?q=80&w=2670&auto=format&fit=crop",
         className: "rounded-tl-lg rounded-tr-[4rem] rounded-bl-lg rounded-br-lg"
     },
     {
-        tag: "Sensua Spa",
-        title: "Discover Sensua",
+        tag: "Relaxation",
+        title: "Pool & Garden",
         image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=2670&auto=format&fit=crop",
         className: "rounded-tl-lg rounded-tr-lg rounded-bl-[4rem] rounded-br-lg"
     }
@@ -31,10 +31,10 @@ export function RoomShowcase() {
             <div className="container mx-auto">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
                     <h2 className="font-serif text-5xl md:text-6xl text-primary max-w-md leading-tight">
-                        Relaxation awaits you
+                        Experience the Luxury
                     </h2>
                     <p className="text-primary/70 max-w-md text-lg">
-                        Rooms open onto a vista of greenery. Generous light from the riverfront seeps in through expansive picturesque windows.
+                        2 Rooms and Hall with distinctive bamboo and wood luxury design, opening onto a vista of greenery and our spacious lawn.
                     </p>
                 </div>
 

@@ -21,7 +21,7 @@ export function IntroSection() {
                 viewport={{ once: true }}
                 className="font-serif text-4xl md:text-6xl lg:text-7xl text-primary max-w-4xl leading-[1.1]"
             >
-                Nothing short of serenity and opulence.
+                Premium indoor rooms with a cozy, heritage feel.
             </motion.h2>
 
             <motion.p
@@ -31,7 +31,7 @@ export function IntroSection() {
                 viewport={{ once: true }}
                 className="mt-8 text-lg md:text-xl text-primary/80 max-w-2xl font-light leading-relaxed"
             >
-                Escape to opulence, tranquility, and relaxation at the Harbour. Experience the beauty of nature combined with world-class luxury living.
+                Spacious event lawn for parties, weddings, and get-togethers. Enjoy our Resort-style outdoor lounge & bar for relaxed evenings.
             </motion.p>
         </section>
     )

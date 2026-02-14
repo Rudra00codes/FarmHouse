@@ -17,7 +17,7 @@ export const TextRoll: React.FC<{
             whileHover="hovered"
             className={cn("relative block overflow-hidden", className)}
             style={{
-                lineHeight: 1, // Adjusted from 0.75 to 1 to prevent clipping in some fonts
+                lineHeight: 1.25, // Adjusted from 0.75 to 1 to prevent clipping in some fonts
             }}
         >
             <div>

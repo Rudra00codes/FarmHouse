@@ -67,7 +67,7 @@ export function Header() {
                                     >
                                         <Link
                                             href={item.href}
-                                            className="font-serif text-4xl md:text-5xl block w-fit"
+                                            className="font-serif text-2xl md:text-4xl block w-fit"
                                             onClick={() => setIsNavOpen(false)}
                                         >
                                             <TextRoll>{item.name}</TextRoll>

@@ -16,8 +16,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: 'Farmhouse Resort',
-    description: 'A premium farmhouse experience.',
+    title: 'Veer Farmhouse',
+    description: 'Where rustic charm meets luxury resort living.',
 };
 
 import { Header } from '@/components/layout/Header';

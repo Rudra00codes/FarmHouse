@@ -1,15 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  
+
   /* Harbour inspired palette */
-  --primary: #2C3E2E; /* Deep Green */
-  --secondary: #E5E0D8; /* Stone/Beige */
-  --accent: #D45D3A; /* Burnt Orange */
+  --primary: #2C3E2E;
+  /* Deep Green */
+  --secondary: #E5E0D8;
+  /* Stone/Beige */
+  --accent: #D45D3A;
+  /* Burnt Orange */
 }
 
 @media (prefers-color-scheme: dark) {

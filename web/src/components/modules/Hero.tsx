@@ -23,22 +23,22 @@ export function Hero() {
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
                     <span className="uppercase tracking-[0.2em] text-sm md:text-base mb-4 block">
-                        Welcome to Serenity
+                        Welcome to Veer Farmhouse
                     </span>
-                    <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl mb-6">
-                        Reconnect with <br />
-                        <span className="italic">Nature's Rythm</span>
+                    <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl mb-6 leading-tight">
+                        Where rustic charm <br />
+                        <span className="italic">meets luxury resort living</span>
                     </h1>
                     <p className="max-w-xl mx-auto text-lg md:text-xl text-white/90 mb-8 font-light">
-                        A sanctuary away from the chaos. Experience the perfect blend of rustic charm and modern luxury.
+                        Distinctive bamboo and wood luxury design with handcrafted royal furniture. Ideal for staycations, celebrations, and private retreats.
                     </p>
 
                     <div className="flex flex-col md:flex-row gap-4 justify-center">
                         <Button variant="harbour" size="lg" className="bg-accent hover:bg-accent/90 border-none">
-                            Check Availability
+                            Book a Stay
                         </Button>
                         <Button variant="outline" size="lg" className="bg-transparent text-white border-white hover:bg-white hover:text-primary">
-                            View Amenities
+                            Explore Amenities
                         </Button>
                     </div>
                 </motion.div>

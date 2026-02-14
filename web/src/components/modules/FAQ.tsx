@@ -7,24 +7,24 @@ import { cn } from "@/lib/utils"
 
 const faqs = [
     {
-        question: "Where can I purchase the Harbour template?",
-        answer: "You can purchase the Harbour template directly from Milky Studio. Designed to showcase luxury and elegance, this Framer web template is perfect for creating stunning websites for destinations, retreats, and estates."
+        question: "What is the guest capacity?",
+        answer: "Our farmhouse sleeps 4 people comfortably in the bedrooms. We can accommodate up to 8 people sitting in the hall, and up to 25 people for parties, weddings, and events."
     },
     {
-        question: "What types of rooms are available at Harbour?",
-        answer: "Harbour offers a selection of luxurious rooms and suites, each designed to provide the ultimate comfort. Choose from cliffside rooms with panoramic coastal views, spacious suites with private terraces, or secluded estate rooms for added privacy."
+        question: "What are the check-in/out and quiet hours?",
+        answer: "Quiet hours are strictly observed from 10:00 PM to 7:00 AM to ensure a peaceful environment. Please respect our neighbors by minimizing noise during these times. Loud music and fireworks are not permitted."
     },
     {
-        question: "What activities can I enjoy at Harbour?",
-        answer: "Harbour is a haven for adventure and relaxation. Enjoy championship golf, scenic hiking trails across 100 acres of pristine land, a heated outdoor pool, and a state-of-the-art gym."
+        question: "What are your policies on parties and smoking?",
+        answer: "We welcome private parties and events! However, strictly no drugs or narcotics are allowed on the property. Smoking is permitted in designated outdoor areas only."
     },
     {
-        question: "Are dining options available at Harbour?",
-        answer: "Yes, Harbour boasts an exquisite dining experience with seasonal menus crafted from locally sourced ingredients. Enjoy your meals in our fine dining restaurant overlooking the coastline or savour casual bites by the pool."
+        question: "Is there a security deposit?",
+        answer: "Yes, a security deposit is required upon booking. It is fully refundable within 7 days after your stay, subject to a post-departure inspection for any damages or losses."
     },
     {
-        question: "Is Harbour family-friendly?",
-        answer: "Absolutely. Harbour welcomes guests of all ages. Families can enjoy spacious accommodations, outdoor activities, and tailored spa treatments, ensuring a memorable experience for every guest."
+        question: "Is Veer Farmhouse family-friendly?",
+        answer: "Absolutely. We are ideal for families, couples, and private retreats. Enjoy our garden, pool, and spacious indoor areas for a memorable family get-together."
     }
 ]
 

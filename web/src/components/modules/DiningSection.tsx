@@ -18,17 +18,17 @@ export function DiningSection() {
                         className="flex-1 space-y-8"
                     >
                         <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-primary leading-[1.1]">
-                            Exceptional Dining, Effortlessly Elegant
+                            Dine Under the Stars
                         </h2>
                         <p className="text-primary/70 text-lg leading-relaxed max-w-lg">
-                            Indulge in world-class cuisine at Noura, our Michelin-starred fine-dining restaurant, where extraordinary flavors meet a relaxed, come-as-you-are atmosphere. Experience luxury dining without the need for formal attire.
+                            Experience our resort-style outdoor lounge & bar. Perfect for relaxed evenings, BBQ parties, or a quiet drink by the pool. Our spacious lawn sets the perfect stage for your private gatherings.
                         </p>
                         <div className="flex gap-4 pt-4">
                             <Button variant="outline" size="lg" className="rounded-none border-primary text-primary hover:bg-primary hover:text-white transition-colors px-8 h-12">
-                                Book a table
+                                Book a Stay
                             </Button>
                             <Button variant="outline" size="lg" className="rounded-none border-primary text-primary hover:bg-primary hover:text-white transition-colors px-8 h-12">
-                                Menu
+                                View Gallery
                             </Button>
                         </div>
                     </motion.div>

@@ -22,22 +22,22 @@ export default function ContactPage() {
                             <div>
                                 <h3 className="font-serif text-xl mb-2 text-primary">Location</h3>
                                 <p className="text-primary/70">
-                                    123 Farm Road<br />
-                                    Countryside, State 12345
+                                    CRX2+GX4, Sitarpur<br />
+                                    Punjab 140501
                                 </p>
                             </div>
                             <div>
                                 <h3 className="font-serif text-xl mb-2 text-primary">Contact</h3>
                                 <p className="text-primary/70">
-                                    <a href="mailto:hello@farmhouse.com" className="hover:underline">hello@farmhouse.com</a><br />
-                                    <a href="tel:+1234567890" className="hover:underline">+1 (234) 567-890</a>
+                                    <a href="mailto:booking@veerfarmhouse.com" className="hover:underline">booking@veerfarmhouse.com</a><br />
+                                    <a href="tel:+919876543210" className="hover:underline">+91 98765 43210</a>
                                 </p>
                             </div>
                             <div>
-                                <h3 className="font-serif text-xl mb-2 text-primary">Hours</h3>
+                                <h3 className="font-serif text-xl mb-2 text-primary">Check-in / Check-out</h3>
                                 <p className="text-primary/70">
-                                    Mon-Fri: 9am - 6pm<br />
-                                    Sat-Sun: 10am - 4pm
+                                    Check-in: 2:00 PM<br />
+                                    Check-out: 11:00 AM
                                 </p>
                             </div>
                         </div>
