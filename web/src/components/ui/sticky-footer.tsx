@@ -16,12 +16,10 @@ export function StickyFooter({ children, footer }: StickyFooterProps) {
 
         const observer = new ResizeObserver((entries) => {
             for (const entry of entries) {
-                // Use offsetHeight or borderBoxSize for full visual height including borders
+                // Use borderBoxSize for full visual height including borders, with contentRect fallback
                 setFooterHeight(entry.borderBoxSize?.[0]?.blockSize || entry.contentRect.height)
-                console.log("Footer Height Updated:", entry.contentRect.height)
             }
         })
-
         observer.observe(footerRef.current)
         return () => observer.disconnect()
     }, [])

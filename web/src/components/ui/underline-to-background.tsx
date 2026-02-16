@@ -13,7 +13,7 @@ export function UnderlineToBackground({ href, children, className, target }: Und
     <Link
       href={href}
       target={target}
-      className={cn(
+      rel={target === "_blank" ? "noopener noreferrer" : undefined} className={cn(
         "group relative inline-flex items-center justify-center overflow-hidden font-medium transition-colors duration-300",
         className
       )}

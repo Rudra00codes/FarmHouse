@@ -33,19 +33,25 @@ export function Hero() {
     // Preload images
     useEffect(() => {
         const loadImages = async () => {
-            const loadedImages: HTMLImageElement[] = []
+            const promises: Promise<HTMLImageElement | null>[] = []
             // Create array of 192 images
             // Naming convention: ezgif-frame-001.jpg (3 digits)
             for (let i = 1; i <= 192; i++) {
-                const img = new Image()
-                const paddedIndex = i.toString().padStart(3, '0')
-                img.src = `/hero-scroll-frames/ezgif-frame-${paddedIndex}.jpg`
-                await new Promise((resolve, reject) => {
-                    img.onload = resolve
-                    img.onerror = reject
-                })
-                loadedImages.push(img)
+                promises.push(new Promise((resolve) => {
+                    const img = new Image()
+                    const paddedIndex = i.toString().padStart(3, '0')
+                    img.src = `/hero-scroll-frames/ezgif-frame-${paddedIndex}.jpg`
+                    img.onload = () => resolve(img)
+                    img.onerror = () => {
+                        console.error(`Failed to load frame ${i}`)
+                        resolve(null)
+                    }
+                }))
             }
+
+            const results = await Promise.all(promises)
+            const loadedImages = results.filter((img): img is HTMLImageElement => img !== null)
+
             setImages(loadedImages)
             setIsLoaded(true)
         }
