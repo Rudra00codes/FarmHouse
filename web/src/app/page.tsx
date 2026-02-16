@@ -1,6 +1,5 @@
 import { Hero } from "@/components/modules/Hero";
 import { Marquee } from "@/components/modules/Marquee";
-import { IntroSection } from "@/components/modules/IntroSection";
 import { CardStack } from "@/components/modules/CardStack";
 import { RoomShowcase } from "@/components/modules/RoomShowcase";
 import { DiningSection } from "@/components/modules/DiningSection";
@@ -25,7 +24,6 @@ export default function Home() {
             />
             <Hero />
             <Marquee />
-            <IntroSection />
             <CardStack />
             <RoomShowcase />
             <DiningSection />

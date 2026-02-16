@@ -22,6 +22,7 @@ export const metadata: Metadata = {
 
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
+import { StickyFooter } from '@/components/ui/sticky-footer';
 
 export default function RootLayout({
     children,
@@ -32,8 +33,9 @@ export default function RootLayout({
         <html lang="en" className={clsx(playfair.variable, inter.variable)}>
             <body className="font-sans antialiased text-foreground bg-background">
                 <Header />
-                {children}
-                <Footer />
+                <StickyFooter footer={<Footer />}>
+                    {children}
+                </StickyFooter>
             </body>
         </html>
     );

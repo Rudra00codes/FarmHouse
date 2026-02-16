@@ -2,25 +2,13 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { UnderlineToBackground } from "@/components/ui/underline-to-background";
+import { StickyFooter } from "@/components/ui/sticky-footer";
 
 export function Footer() {
     return (
         <footer className="bg-primary text-secondary py-24 px-6">
             <div className="container mx-auto">
-                <div className="flex flex-col items-center text-center mb-24 space-y-8">
-                    <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.1] max-w-4xl">
-                        Where rustic charm meets luxury resort living.
-                    </h2>
-                    <p className="text-secondary/70 text-lg max-w-2xl">
-                        We look forward to welcoming you to Veer Farmhouse for your perfect staycation, celebration, or private retreat.
-                    </p>
-                    <Link href="/book">
-                        <Button size="lg" className="bg-secondary text-primary hover:bg-white text-lg px-8 py-6 rounded-none">
-                            Book a stay
-                        </Button>
-                    </Link>
-                </div>
-
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-12 border-t border-secondary/20 pt-16">
                     <div className="space-y-6">
                         <h3 className="font-serif text-xl mb-4">The Farmhouse</h3>
@@ -63,7 +51,13 @@ export function Footer() {
                 <div className="flex flex-col md:flex-row justify-between items-center mt-24 pt-8 border-t border-secondary/20 opacity-60 text-sm">
                     <div className="flex flex-col md:flex-row gap-8 items-center mb-4 md:mb-0">
                         <p>CRX2+GX4, Sitarpur, Punjab 140501</p>
-                        <Link href="https://maps.google.com/?q=CRX2+GX4,+Sitarpur,+Punjab+140501" target="_blank" className="underline">Get directions</Link>
+                        <UnderlineToBackground
+                            href="https://maps.google.com/?q=CRX2+GX4,+Sitarpur,+Punjab+140501"
+                            target="_blank"
+                            className="text-secondary"
+                        >
+                            Get directions
+                        </UnderlineToBackground>
                     </div>
 
                     <div className="flex gap-8">
