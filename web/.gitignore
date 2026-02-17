@@ -48,6 +48,3 @@ next-env.d.ts
 .idea/
 *.swp
 *.swo
-
-# Custom
-public/hero-scroll-frames/
